@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lab2</name>
+    </assembly>
+    <members>
+        <member name="M:Lab2.Controllers.StudentsController.getall(System.Int32,System.Int32,System.String)">
+            <summary>
+             get all students and use pagination and search by name
+            </summary>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <param name="name"></param>
+            <returns>
+            return all students and when search by name only get the students with this name in first or last name
+            </returns>
+            <remarks>
+            request example  
+            /api/students
+            </remarks>
+        </member>
+    </members>
+</doc>
